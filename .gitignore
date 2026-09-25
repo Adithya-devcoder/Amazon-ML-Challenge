@@ -1,0 +1,41 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+
+# Virtual environments
+.venv/
+venv/
+env/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# IDE
+.vscode/
+.idea/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Competition datasets
+data/
+Dataset/
+
+# Generated outputs
+output/*.tsv
+
+# Trained models
+models/*
+!models/.gitkeep
+
+# Experiment artifacts
+reports/*.csv
+
+# Temporary files
+*.tmp
+*.log
+
+# Python cache
+.pytest_cache/
